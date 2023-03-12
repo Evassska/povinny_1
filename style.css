@@ -5,9 +5,6 @@ color :navy;text-align:center;font-size: 60px;margin-bottom: 0;}
 h2 {
     color :navy;text-align:left;font-size: 30px}
 
-h3 {
-    color :navy;text-align:left;font-size: 25px;}
-
 h4 {
     color :navy;text-align:left;font-size: 19px;margin-bottom: 0;}
     
@@ -15,28 +12,30 @@ h4 {
 header {background-color:lightblue}
 .knowledge,.experience,.languages {background-color:lightblue;}
 
-body {background-color:lightblue ; font-family:Arial, Helvetica, sans-serif;font-size: 18px;}
+body {background-color:lightblue ; font-family:Arial, Helvetica, sans-serif;font-size: 18px;
+    margin:0;}
 
 .intro img {
     width: 23%;
     border: 2px lightblue;
     float: right;
     border-radius: 15px;
-    margin: 0 40px 40px 0;}
+    margin: 10px 40px 40px 0;
+    overflow: auto}
 
 /* table{border-spacing: 0;} */
 
 .vpravo {text-align:right ;padding-left: 40px;}
 th{text-align:left ;}
 
-p{padding-right: 600px}
+p{padding-right: 60px}
 section{padding: 50px}
 header{padding: 50px;}
-footer{padding: 50px;}
+.address {padding: 50px;}
 tr{margin-bottom: 20px}
 
 
-.konec{background-color: darkgrey; color: black;text-align:right }
+footer{background-color: darkgrey; color: black;text-align:right;padding-top: 30px; }
 .knowledge{background-color:skyblue;}
 .experience{background-color: skyblue;}
 .languages {background-color: skyblue;}
